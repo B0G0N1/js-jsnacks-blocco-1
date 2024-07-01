@@ -29,7 +29,7 @@ e così via
 
 
 <!----------------------------
-    PSEUDO CODICE JSNACK1
+    PSEUDO-CODICE JSNACK1
 ----------------------------->
 1. Definire un array chiamato "guests" contenente i nomi degli invitati (es. ["Nick", "Daisy", "Tom", "Jordan", ...]).
 2. Chiedere all'utente di inserire il suo nome.
@@ -43,3 +43,17 @@ e così via
     6.1 STAMPA "Puoi partecipare al party!".
 7. ALTRIMENTI:
     7.1 STAMPA "Non puoi partecipare al party...".
+
+
+
+
+<!----------------------------
+    PSEUDO-CODICE JSNACK2
+----------------------------->
+1.   Definire un array vuoto chiamato "evenNumber".
+2.   Per 6 volte:
+     2.1 Chiedere all'utente di inserire un numero.
+     2.2 Leggere il numero inserito e memorizzarlo in una variabile chiamata "number".
+     2.3 SE "numero" è dispari (numero % 2 != 0):
+          2.3.1 Aggiungere "numero" all'array "evenNumber".
+3. Stampare l'array "evenNumber".
