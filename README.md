@@ -24,3 +24,22 @@ jsnack2 (cartella)
 - index.html
 - script.js`
 e così via
+
+
+
+
+<!----------------------------
+    PSEUDO CODICE JSNACK1
+----------------------------->
+1. Definire un array chiamato "guests" contenente i nomi degli invitati (es. ["Nick", "Daisy", "Tom", "Jordan", ...]).
+2. Chiedere all'utente di inserire il suo nome.
+3. Leggere il nome dell'utente e memorizzalo in una variabile chiamata "userName".
+4. Inizializzare una variabile "canPartecipate" su FALSE.
+5. Per ogni nome nell'array "guests":
+    5.1 SE "userName" è uguale al nome nell'array:
+        5.1.1 IMPOSTA "canPartecipate" su TRUE.
+        5.1.2 ROMPI il ciclo.
+6. SE "canPartecipate" è TRUE:
+    6.1 STAMPA "Puoi partecipare al party!".
+7. ALTRIMENTI:
+    7.1 STAMPA "Non puoi partecipare al party...".
