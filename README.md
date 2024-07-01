@@ -50,10 +50,24 @@ e così via
 <!----------------------------
     PSEUDO-CODICE JSNACK2
 ----------------------------->
-1.   Definire un array vuoto chiamato "evenNumber".
+1.   Definire un array vuoto chiamato "oddNumber".
 2.   Per 6 volte:
      2.1 Chiedere all'utente di inserire un numero.
      2.2 Leggere il numero inserito e memorizzarlo in una variabile chiamata "number".
-     2.3 SE "numero" è dispari (numero % 2 != 0):
-          2.3.1 Aggiungere "numero" all'array "evenNumber".
-3. Stampare l'array "evenNumber".
+     2.3 SE "numero" è dispari (numero % 2 != 1):
+          2.3.1 Aggiungere "numero" all'array "oddNumber".
+3. Stampare l'array "oddNumber".
+
+
+
+
+<!----------------------------
+    PSEUDO-CODICE JSNACK3
+----------------------------->
+1.  Chiedere all'utente di inserire un numero di 4 cifre.
+2.  Leggere il numero inserito dall'utente e memorizzarlo in una variabile chiamata "number".
+3.  Inizializzare una variabile "sum" su 0.
+4.  Per ogni cifra nel numero:
+        4.1 Convertire la cifra in un numero intero.
+        4.2 Aggiungere il valore della cifra alla variabile "sum".
+5.  Stampare il valore della variabile "sum".
